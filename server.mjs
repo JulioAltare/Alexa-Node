@@ -22,6 +22,8 @@ app.use(
   express.static(path.join(__dirname, "node_modules/jquery/dist"))
 );
 
+app.use("/services", express.static(path.join(__dirname, "/services")));
+
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "/index.html"));
 });
