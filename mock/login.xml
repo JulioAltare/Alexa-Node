@@ -1,0 +1,257 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body>
+      <AreUserAndPasswordCorrectResponse xmlns="http://tempuri.org/">
+         <AreUserAndPasswordCorrectResult xmlns:a="http://schemas.datacontract.org/2004/07/ADDInformatica.ResiPlus.Services.DTOs" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+            <a:Authenticated>true</a:Authenticated>
+            <a:ConnectionInfoList i:nil="true"/>
+            <a:CustomerReference/>
+            <a:DatabasesNamesWithoutAccess i:nil="true" xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+            <a:DatabasesToConnect>
+               <a:DatabaseDTO>
+                  <a:AbucasisIntegration>false</a:AbucasisIntegration>
+                  <a:AssociatedAssessmentToUlcersId>-999</a:AssociatedAssessmentToUlcersId>
+                  <a:AssociatedAssessmentToUlcersIsCustom>false</a:AssociatedAssessmentToUlcersIsCustom>
+                  <a:Community>6</a:Community>
+                  <a:DatabaseToConnect i:nil="true"/>
+                  <a:Id>17</a:Id>
+                  <a:IsMaster>false</a:IsMaster>
+                  <a:Name>EMERA ALMERÍA</a:Name>
+                  <a:PhotosFolderPath>\\RESIPLUSPREPRO\ResiPlus\Datos\Empresa 9\Fotos\</a:PhotosFolderPath>
+                  <a:Residents i:nil="true" xmlns:b="http://schemas.datacontract.org/2004/07/ADDInformatica.ResiPlus.Services.ServicesDTOs.Residents"/>
+                  <a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>false</a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>
+               </a:DatabaseDTO>
+               <a:DatabaseDTO>
+                  <a:AbucasisIntegration>false</a:AbucasisIntegration>
+                  <a:AssociatedAssessmentToUlcersId>-999</a:AssociatedAssessmentToUlcersId>
+                  <a:AssociatedAssessmentToUlcersIsCustom>false</a:AssociatedAssessmentToUlcersIsCustom>
+                  <a:Community>1</a:Community>
+                  <a:DatabaseToConnect i:nil="true"/>
+                  <a:Id>20</a:Id>
+                  <a:IsMaster>false</a:IsMaster>
+                  <a:Name>EMERA BOADILLA</a:Name>
+                  <a:PhotosFolderPath>\\RESIPLUSPREPRO\ResiPlus\Datos\Empresa 12\Fotos\</a:PhotosFolderPath>
+                  <a:Residents i:nil="true" xmlns:b="http://schemas.datacontract.org/2004/07/ADDInformatica.ResiPlus.Services.ServicesDTOs.Residents"/>
+                  <a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>true</a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>
+               </a:DatabaseDTO>
+               <a:DatabaseDTO>
+                  <a:AbucasisIntegration>false</a:AbucasisIntegration>
+                  <a:AssociatedAssessmentToUlcersId>-999</a:AssociatedAssessmentToUlcersId>
+                  <a:AssociatedAssessmentToUlcersIsCustom>false</a:AssociatedAssessmentToUlcersIsCustom>
+                  <a:Community>1</a:Community>
+                  <a:DatabaseToConnect i:nil="true"/>
+                  <a:Id>25</a:Id>
+                  <a:IsMaster>false</a:IsMaster>
+                  <a:Name>EMERA CARABANCHEL</a:Name>
+                  <a:PhotosFolderPath>\\RESIPLUSPREPRO\ResiPlus\Datos\Empresa 17\Fotos\</a:PhotosFolderPath>
+                  <a:Residents i:nil="true" xmlns:b="http://schemas.datacontract.org/2004/07/ADDInformatica.ResiPlus.Services.ServicesDTOs.Residents"/>
+                  <a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>true</a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>
+               </a:DatabaseDTO>
+               <a:DatabaseDTO>
+                  <a:AbucasisIntegration>false</a:AbucasisIntegration>
+                  <a:AssociatedAssessmentToUlcersId>-999</a:AssociatedAssessmentToUlcersId>
+                  <a:AssociatedAssessmentToUlcersIsCustom>false</a:AssociatedAssessmentToUlcersIsCustom>
+                  <a:Community>1</a:Community>
+                  <a:DatabaseToConnect i:nil="true"/>
+                  <a:Id>2</a:Id>
+                  <a:IsMaster>false</a:IsMaster>
+                  <a:Name>EMERA EL ALAMO</a:Name>
+                  <a:PhotosFolderPath>\\RESIPLUSPREPRO\ResiPlus\Datos\Empresa 2\Fotos\</a:PhotosFolderPath>
+                  <a:Residents i:nil="true" xmlns:b="http://schemas.datacontract.org/2004/07/ADDInformatica.ResiPlus.Services.ServicesDTOs.Residents"/>
+                  <a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>true</a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>
+               </a:DatabaseDTO>
+               <a:DatabaseDTO>
+                  <a:AbucasisIntegration>false</a:AbucasisIntegration>
+                  <a:AssociatedAssessmentToUlcersId>-999</a:AssociatedAssessmentToUlcersId>
+                  <a:AssociatedAssessmentToUlcersIsCustom>false</a:AssociatedAssessmentToUlcersIsCustom>
+                  <a:Community>7</a:Community>
+                  <a:DatabaseToConnect i:nil="true"/>
+                  <a:Id>13</a:Id>
+                  <a:IsMaster>false</a:IsMaster>
+                  <a:Name>EMERA GUADALAJARA</a:Name>
+                  <a:PhotosFolderPath>\\RESIPLUSPREPRO\ResiPlus\Datos\Empresa 5\Fotos\</a:PhotosFolderPath>
+                  <a:Residents i:nil="true" xmlns:b="http://schemas.datacontract.org/2004/07/ADDInformatica.ResiPlus.Services.ServicesDTOs.Residents"/>
+                  <a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>true</a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>
+               </a:DatabaseDTO>
+               <a:DatabaseDTO>
+                  <a:AbucasisIntegration>false</a:AbucasisIntegration>
+                  <a:AssociatedAssessmentToUlcersId>-999</a:AssociatedAssessmentToUlcersId>
+                  <a:AssociatedAssessmentToUlcersIsCustom>false</a:AssociatedAssessmentToUlcersIsCustom>
+                  <a:Community>1</a:Community>
+                  <a:DatabaseToConnect i:nil="true"/>
+                  <a:Id>19</a:Id>
+                  <a:IsMaster>false</a:IsMaster>
+                  <a:Name>EMERA JUAN BRAVO</a:Name>
+                  <a:PhotosFolderPath>\\RESIPLUSPREPRO\ResiPlus\Datos\Empresa 11\Fotos\</a:PhotosFolderPath>
+                  <a:Residents i:nil="true" xmlns:b="http://schemas.datacontract.org/2004/07/ADDInformatica.ResiPlus.Services.ServicesDTOs.Residents"/>
+                  <a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>true</a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>
+               </a:DatabaseDTO>
+               <a:DatabaseDTO>
+                  <a:AbucasisIntegration>false</a:AbucasisIntegration>
+                  <a:AssociatedAssessmentToUlcersId>-999</a:AssociatedAssessmentToUlcersId>
+                  <a:AssociatedAssessmentToUlcersIsCustom>false</a:AssociatedAssessmentToUlcersIsCustom>
+                  <a:Community>4</a:Community>
+                  <a:DatabaseToConnect i:nil="true"/>
+                  <a:Id>22</a:Id>
+                  <a:IsMaster>false</a:IsMaster>
+                  <a:Name>EMERA LLEIDA</a:Name>
+                  <a:PhotosFolderPath>\\RESIPLUSPREPRO\ResiPlus\Datos\Empresa 14\Fotos\</a:PhotosFolderPath>
+                  <a:Residents i:nil="true" xmlns:b="http://schemas.datacontract.org/2004/07/ADDInformatica.ResiPlus.Services.ServicesDTOs.Residents"/>
+                  <a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>false</a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>
+               </a:DatabaseDTO>
+               <a:DatabaseDTO>
+                  <a:AbucasisIntegration>false</a:AbucasisIntegration>
+                  <a:AssociatedAssessmentToUlcersId>-999</a:AssociatedAssessmentToUlcersId>
+                  <a:AssociatedAssessmentToUlcersIsCustom>false</a:AssociatedAssessmentToUlcersIsCustom>
+                  <a:Community>6</a:Community>
+                  <a:DatabaseToConnect i:nil="true"/>
+                  <a:Id>3</a:Id>
+                  <a:IsMaster>false</a:IsMaster>
+                  <a:Name>EMERA MACARENA</a:Name>
+                  <a:PhotosFolderPath>\\RESIPLUSPREPRO\ResiPlus\Datos\Empresa 3\Fotos\</a:PhotosFolderPath>
+                  <a:Residents i:nil="true" xmlns:b="http://schemas.datacontract.org/2004/07/ADDInformatica.ResiPlus.Services.ServicesDTOs.Residents"/>
+                  <a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>true</a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>
+               </a:DatabaseDTO>
+               <a:DatabaseDTO>
+                  <a:AbucasisIntegration>false</a:AbucasisIntegration>
+                  <a:AssociatedAssessmentToUlcersId>-999</a:AssociatedAssessmentToUlcersId>
+                  <a:AssociatedAssessmentToUlcersIsCustom>false</a:AssociatedAssessmentToUlcersIsCustom>
+                  <a:Community>7</a:Community>
+                  <a:DatabaseToConnect i:nil="true"/>
+                  <a:Id>16</a:Id>
+                  <a:IsMaster>false</a:IsMaster>
+                  <a:Name>EMERA MALLORCA</a:Name>
+                  <a:PhotosFolderPath>\\RESIPLUSPREPRO\ResiPlus\Datos\Empresa 8\Fotos\</a:PhotosFolderPath>
+                  <a:Residents i:nil="true" xmlns:b="http://schemas.datacontract.org/2004/07/ADDInformatica.ResiPlus.Services.ServicesDTOs.Residents"/>
+                  <a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>true</a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>
+               </a:DatabaseDTO>
+               <a:DatabaseDTO>
+                  <a:AbucasisIntegration>false</a:AbucasisIntegration>
+                  <a:AssociatedAssessmentToUlcersId>-999</a:AssociatedAssessmentToUlcersId>
+                  <a:AssociatedAssessmentToUlcersIsCustom>false</a:AssociatedAssessmentToUlcersIsCustom>
+                  <a:Community>7</a:Community>
+                  <a:DatabaseToConnect i:nil="true"/>
+                  <a:Id>18</a:Id>
+                  <a:IsMaster>false</a:IsMaster>
+                  <a:Name>EMERA MAS CAMARENA</a:Name>
+                  <a:PhotosFolderPath>\\RESIPLUSPREPRO\ResiPlus\Datos\Empresa 10\Fotos\</a:PhotosFolderPath>
+                  <a:Residents i:nil="true" xmlns:b="http://schemas.datacontract.org/2004/07/ADDInformatica.ResiPlus.Services.ServicesDTOs.Residents"/>
+                  <a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>true</a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>
+               </a:DatabaseDTO>
+               <a:DatabaseDTO>
+                  <a:AbucasisIntegration>false</a:AbucasisIntegration>
+                  <a:AssociatedAssessmentToUlcersId>-999</a:AssociatedAssessmentToUlcersId>
+                  <a:AssociatedAssessmentToUlcersIsCustom>false</a:AssociatedAssessmentToUlcersIsCustom>
+                  <a:Community>1</a:Community>
+                  <a:DatabaseToConnect i:nil="true"/>
+                  <a:Id>26</a:Id>
+                  <a:IsMaster>false</a:IsMaster>
+                  <a:Name>EMERA MENDEZ ALVARO</a:Name>
+                  <a:PhotosFolderPath>\\RESIPLUSPREPRO\ResiPlus\Datos\Empresa 18\Fotos\</a:PhotosFolderPath>
+                  <a:Residents i:nil="true" xmlns:b="http://schemas.datacontract.org/2004/07/ADDInformatica.ResiPlus.Services.ServicesDTOs.Residents"/>
+                  <a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>true</a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>
+               </a:DatabaseDTO>
+               <a:DatabaseDTO>
+                  <a:AbucasisIntegration>false</a:AbucasisIntegration>
+                  <a:AssociatedAssessmentToUlcersId>-999</a:AssociatedAssessmentToUlcersId>
+                  <a:AssociatedAssessmentToUlcersIsCustom>false</a:AssociatedAssessmentToUlcersIsCustom>
+                  <a:Community>13</a:Community>
+                  <a:DatabaseToConnect i:nil="true"/>
+                  <a:Id>15</a:Id>
+                  <a:IsMaster>false</a:IsMaster>
+                  <a:Name>EMERA MONTE-RINCÓN</a:Name>
+                  <a:PhotosFolderPath>\\RESIPLUSPREPRO\ResiPlus\Datos\Empresa 7\Fotos\</a:PhotosFolderPath>
+                  <a:Residents i:nil="true" xmlns:b="http://schemas.datacontract.org/2004/07/ADDInformatica.ResiPlus.Services.ServicesDTOs.Residents"/>
+                  <a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>true</a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>
+               </a:DatabaseDTO>
+               <a:DatabaseDTO>
+                  <a:AbucasisIntegration>false</a:AbucasisIntegration>
+                  <a:AssociatedAssessmentToUlcersId>-999</a:AssociatedAssessmentToUlcersId>
+                  <a:AssociatedAssessmentToUlcersIsCustom>false</a:AssociatedAssessmentToUlcersIsCustom>
+                  <a:Community>1</a:Community>
+                  <a:DatabaseToConnect i:nil="true"/>
+                  <a:Id>27</a:Id>
+                  <a:IsMaster>false</a:IsMaster>
+                  <a:Name>EMERA MOSTOLES</a:Name>
+                  <a:PhotosFolderPath>\\RESIPLUSPREPRO\ResiPlus\Datos\Empresa 19\Fotos\</a:PhotosFolderPath>
+                  <a:Residents i:nil="true" xmlns:b="http://schemas.datacontract.org/2004/07/ADDInformatica.ResiPlus.Services.ServicesDTOs.Residents"/>
+                  <a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>true</a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>
+               </a:DatabaseDTO>
+               <a:DatabaseDTO>
+                  <a:AbucasisIntegration>false</a:AbucasisIntegration>
+                  <a:AssociatedAssessmentToUlcersId>-999</a:AssociatedAssessmentToUlcersId>
+                  <a:AssociatedAssessmentToUlcersIsCustom>false</a:AssociatedAssessmentToUlcersIsCustom>
+                  <a:Community>22</a:Community>
+                  <a:DatabaseToConnect i:nil="true"/>
+                  <a:Id>21</a:Id>
+                  <a:IsMaster>false</a:IsMaster>
+                  <a:Name>EMERA MURCIA</a:Name>
+                  <a:PhotosFolderPath>\\RESIPLUSPREPRO\ResiPlus\Datos\Empresa 13\Fotos\</a:PhotosFolderPath>
+                  <a:Residents i:nil="true" xmlns:b="http://schemas.datacontract.org/2004/07/ADDInformatica.ResiPlus.Services.ServicesDTOs.Residents"/>
+                  <a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>true</a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>
+               </a:DatabaseDTO>
+               <a:DatabaseDTO>
+                  <a:AbucasisIntegration>false</a:AbucasisIntegration>
+                  <a:AssociatedAssessmentToUlcersId>-999</a:AssociatedAssessmentToUlcersId>
+                  <a:AssociatedAssessmentToUlcersIsCustom>false</a:AssociatedAssessmentToUlcersIsCustom>
+                  <a:Community>4</a:Community>
+                  <a:DatabaseToConnect i:nil="true"/>
+                  <a:Id>14</a:Id>
+                  <a:IsMaster>false</a:IsMaster>
+                  <a:Name>EMERA SANT GENÍS</a:Name>
+                  <a:PhotosFolderPath>\\RESIPLUSPREPRO\ResiPlus\Datos\Empresa 6\Fotos\</a:PhotosFolderPath>
+                  <a:Residents i:nil="true" xmlns:b="http://schemas.datacontract.org/2004/07/ADDInformatica.ResiPlus.Services.ServicesDTOs.Residents"/>
+                  <a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>true</a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>
+               </a:DatabaseDTO>
+               <a:DatabaseDTO>
+                  <a:AbucasisIntegration>false</a:AbucasisIntegration>
+                  <a:AssociatedAssessmentToUlcersId>-999</a:AssociatedAssessmentToUlcersId>
+                  <a:AssociatedAssessmentToUlcersIsCustom>false</a:AssociatedAssessmentToUlcersIsCustom>
+                  <a:Community>7</a:Community>
+                  <a:DatabaseToConnect i:nil="true"/>
+                  <a:Id>12</a:Id>
+                  <a:IsMaster>false</a:IsMaster>
+                  <a:Name>EMERA VITAL PARQUE</a:Name>
+                  <a:PhotosFolderPath>\\RESIPLUSPREPRO\ResiPlus\Datos\Empresa 4\Fotos\</a:PhotosFolderPath>
+                  <a:Residents i:nil="true" xmlns:b="http://schemas.datacontract.org/2004/07/ADDInformatica.ResiPlus.Services.ServicesDTOs.Residents"/>
+                  <a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>true</a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>
+               </a:DatabaseDTO>
+               <a:DatabaseDTO>
+                  <a:AbucasisIntegration>false</a:AbucasisIntegration>
+                  <a:AssociatedAssessmentToUlcersId>-999</a:AssociatedAssessmentToUlcersId>
+                  <a:AssociatedAssessmentToUlcersIsCustom>false</a:AssociatedAssessmentToUlcersIsCustom>
+                  <a:Community>7</a:Community>
+                  <a:DatabaseToConnect i:nil="true"/>
+                  <a:Id>24</a:Id>
+                  <a:IsMaster>false</a:IsMaster>
+                  <a:Name>RESIDENCIA DE MAYORES EMERA  ZARAGOZA</a:Name>
+                  <a:PhotosFolderPath>\\RESIPLUSPREPRO\ResiPlus\Datos\Empresa 16\Fotos\</a:PhotosFolderPath>
+                  <a:Residents i:nil="true" xmlns:b="http://schemas.datacontract.org/2004/07/ADDInformatica.ResiPlus.Services.ServicesDTOs.Residents"/>
+                  <a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>true</a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>
+               </a:DatabaseDTO>
+               <a:DatabaseDTO>
+                  <a:AbucasisIntegration>false</a:AbucasisIntegration>
+                  <a:AssociatedAssessmentToUlcersId>-999</a:AssociatedAssessmentToUlcersId>
+                  <a:AssociatedAssessmentToUlcersIsCustom>false</a:AssociatedAssessmentToUlcersIsCustom>
+                  <a:Community>7</a:Community>
+                  <a:DatabaseToConnect i:nil="true"/>
+                  <a:Id>23</a:Id>
+                  <a:IsMaster>false</a:IsMaster>
+                  <a:Name>RESIDENCIA DE MAYORES VALLES ALTOS SABIÑANIGO</a:Name>
+                  <a:PhotosFolderPath>\\RESIPLUSPREPRO\ResiPlus\Datos\Empresa 15\Fotos\</a:PhotosFolderPath>
+                  <a:Residents i:nil="true" xmlns:b="http://schemas.datacontract.org/2004/07/ADDInformatica.ResiPlus.Services.ServicesDTOs.Residents"/>
+                  <a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>true</a:SynchronizeFoodAllergiesOfDietitianDataWithTheDoctorSection>
+               </a:DatabaseDTO>
+            </a:DatabasesToConnect>
+            <a:DaysBetweenTodayAndLimitDate>-1</a:DaysBetweenTodayAndLimitDate>
+            <a:Error/>
+            <a:MaxNumRetries>-1</a:MaxNumRetries>
+            <a:PasswordControlIsActive>false</a:PasswordControlIsActive>
+            <a:ResultCode>CorrectCredentials</a:ResultCode>
+            <a:SessionGuid>379f2b3d-80e1-44bc-b8c5-48f279ef929f</a:SessionGuid>
+            <a:UserId>2930</a:UserId>
+            <a:UserLanguage>1</a:UserLanguage>
+            <a:UserNameAndSurnames>Desarrollo</a:UserNameAndSurnames>
+         </AreUserAndPasswordCorrectResult>
+      </AreUserAndPasswordCorrectResponse>
+   </s:Body>
+</s:Envelope>
