@@ -5,9 +5,6 @@ import path from "path";
 import {fetchData} from './services/services.js';
 import NodeCache from "node-cache";
 
-
-
-
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
@@ -15,27 +12,7 @@ const app = express();
 const port = 3000;
 const myCache = new NodeCache();
 
-// app use
-app.use(
-  "/css",
-  express.static(path.join(__dirname, "node_modules/bootstrap/dist/css"))
-);
-app.use(
-  "/js",
-  express.static(path.join(__dirname, "node_modules/bootstrap/dist/js"))
-);
-app.use(
-  "/js",
-  express.static(path.join(__dirname, "node_modules/jquery/dist"))
-);
-
-app.use(
-  "/js",
-  express.static(path.join(__dirname, "/node_modules/xml2js"))
-);
-
-app.use("/services", express.static(path.join(__dirname, "/services")));
-app.use("/utils", express.static(path.join(__dirname, "/utils")));
+app.use(express.json());
 
 // GET REQUESTS
 app.get("/", (req, res) => {
@@ -43,6 +20,8 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "/index.html"));
 });
 
+
+//Mock del login de la aplicacion R+
 app.get('/mock/login', function (req, res) {
   const options = {
       root: path.join(__dirname,"mock")
@@ -58,51 +37,43 @@ app.get('/mock/login', function (req, res) {
   });
 });
 
-app.get('/demo',(req,res)=>{
-  // If cache has key, retrieve value
-     // from cache itself
-     if(myCache.has('uniqueKey')){
-      console.log('Retrieved value from cache !!')
-      
-      // Serve response from cache using
-      // myCache.get(key)
-      res.send("Result: " + myCache.get('uniqueKey'))
- }else{
+//Obtiene todos los valores de la cache.
+app.get('/getCache',(req,res)=>{
+  console.log('Retrieved value from cache !!')
+  myCache.mget(myCache.keys());
+  res.send( myCache.mget(myCache.keys()));
+});
 
-      // Perform operation, since cache 
-      // doesn't have key
-      let result =  'Esto es una prueba de la BBDD';
-      
-      // Set value for same key, in order to 
-      // serve future requests efficiently
-      myCache.set('uniqueKey', result)
-      
-      console.log('Value not present in cache,'
-            + ' performing computation')
-      res.send("Result: " + result)
- }
+//Borra todos los datos de la cache.
+app.delete('/deleteCache',(req,res)=>{
+  //console.log('los datos de la cache han sido borrados');
+  myCache.flushAll();
+  res.status(200).send('Cache borrada');
 })
 
-//DEMO REQUESTS
-
-function demo(){
-  let temp = 0;
-     for(let i=0; i<100000; i++)
-          temp = (Math.random()*5342)%i;
-     return 123;
+//Almacena datos en la cache.
+app.post("/postCache", (req, res) => {
+let keyValue =  Math.floor(Math.random() * 1000);
+let savedValue = false;
+let dataFromReq = req.body;
+while(!savedValue){
+  if(!myCache.has(keyValue.toString())){
+    myCache.set(keyValue.toString(),dataFromReq);
+    savedValue = true;
+  }else{
+    keyValue =  Math.floor(Math.random() * 1000);
+  }
 }
-
-
-// POST REQUESTS
-app.post("/", (req, res) => {
-  
-
+res.status(200).send(dataFromReq);
 });
 
 // Listen port
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+
+
+
 
 
 
